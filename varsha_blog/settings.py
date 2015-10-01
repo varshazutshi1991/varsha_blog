@@ -90,7 +90,7 @@ STATIC_URL = '/static/'
 
 #template dirs
 
-TEMPLATE_DIRS = BASE_DIR +'/signups/'
+TEMPLATE_DIRS = (BASE_DIR +'/signups/',)
 
 
 if DEBUG:
