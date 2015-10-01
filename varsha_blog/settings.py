@@ -54,7 +54,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'light-gray.urls'
+ROOT_URLCONF = 'varsha_blog.urls'
 
 WSGI_APPLICATION = 'varsha_blog.wsgi.application'
 
@@ -90,7 +90,7 @@ STATIC_URL = '/static/'
 
 #template dirs
 
-TEMPLATE_DIRS = '/Users/fco0001850/varsha/varsha_blog/signups/'
+TEMPLATE_DIRS = BASE_DIR +'/signups/'
 
 
 if DEBUG:
