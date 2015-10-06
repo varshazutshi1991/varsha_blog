@@ -1,14 +1,128 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Welcome</h1>
 
-<form method='POST', action=''>
+<!-- <form method='POST', action=''>
 	{% csrf_token %}
 	{{ form.as_p }}
 
 	<input type="submit">
 	
-</form>
+</form> -->
+
+ <body style="display: block;">
+		<section class="container">
+
+			<!-- Header -->
+			<header class="row-fluid">
+				<div class="title span8">
+					<img src="../static/signups/images/profile.jpg"  width=100px title="That`s me!" alt="My Profile">
+					<h1>varsha zutshi</h1>
+					<h2>python django front-end web developer</h2>
+				</div>
+				<div class="social offset1 span3">
+					<ul>
+						<li> 59 General Lane </li>
+						<li>Saraswati vihar Jammu</li>
+						<li> varshazutshi11@gmail.com</li>
+						<li>9717622275</li>
+						<!-- <li><a href="http://wbpreview.com/previews/WB0DCP565/#"><i class="icon-twitter"></i></a>
+						<a href="http://wbpreview.com/previews/WB0DCP565/#"><i class="icon-facebook"></i></a>
+						<a href="http://wbpreview.com/previews/WB0DCP565/#"><i class="icon-google-plus"></i></a>
+						<a href="http://wbpreview.com/previews/WB0DCP565/#"><i class="icon-github"></i></a></li> -->
+					</ul>
+				</div>	
+			</header>
+
+			<!-- Welcome Text -->
+			<article class="row-fluid">
+				<header class="span3">
+					<h3>Hello!</h3>
+				</header>
+				<div class="span9 ">
+					<p class="welcome">"Seeking a position where I can use my skills that could finally reflect in a work and benefit my organization. My ambition has always been to work in a competitive environment." <br>
+				</div>
+			</article>
+
+			<!-- Skills -->
+			<article class="row-fluid">
+				<header class="span3">
+					<h3>Skills</h3>
+				</header>
+				<div class="span9">
+					<div class="row-fluid skills">
+						<ul class="span6">
+							<li><h4>Programming</h4></li>
+							<li><strong>python</strong> - 1 years experience</li>
+							<li><strong>django</strong> - 1 years experience</li>
+							<li><strong>html</strong> - 1.6 years experience</li>
+							<li><strong>css</strong> -1.6 years experience</li>
+						</ul>
+						<ul class="span6">
+							<li><h4>Languages</h4></li>
+							<li><strong>English</strong></li>
+							<li><strong>Hindi</strong></li>
+						</ul>
+					</div>
+				</div>
+			</article>
+
+			<!-- Education -->
+			<article class="row-fluid">
+				<header class="span3">
+					<h3>Education</h3>
+				</header>
+				<div class="span9">
+					<h4>High School</h4>
+					<h5>2007-2009</h5>
+						<p>Vishwa Bharti High School -  University of Jammu</p>
+					<h4>Graduate</h4>
+					<h5>2000-2013</h5>
+					<p>JSPM - Pune University - BE COMPUTER</p>
+				</div>
+			</article>
+
+			<!-- Work -->
+			<article class="row-fluid">
+				<header class="span3">
+					<h3>Work Experience</h3>
+				</header>
+				<div class="span9">
+					<h4>My First Job </h4>
+					<h5>2015-till Date</h5>
+					<p>Junior Software Engineer, Camp SMA Pvt. Ltd.</p>
+					<h5>2014-2015</h5>
+					<p>Management Trainee, Camp SMA Pvt. Ltd.</p>
+					<h5>2013-2014</h5>
+					<p>Trainee (October 2013 to March 2014), Shahi Exports Pvt. Ltd., Faridabad.<p>
+				</div>
+			</article>
+
+			<!-- Interests -->
+			<article class="row-fluid">
+				<header class="span3">
+					<h3>Interests</h3>
+				</header>
+				<div class="span9">
+					<h4>Traveling</h4>
+					<h4>Reading</h4>
+					<h4>Books</h4>
+				</div>
+			</article>
+
+			<!-- Footer -->
+			<footer>
+				© 2015 varsha zutshi 
+				<!-- <a href="http://wbpreview.com/previews/WB0DCP565/#">Download as PDF</a> | <a href="http://wbpreview.com/previews/WB0DCP565/#" onclick="javascript:window.print();">Print</a> | <a href="http://wbpreview.com/previews/WB0DCP565/#top">To top <i class="icon-arrow-up"></i></a> -->
+			
+			</footer>
+	</section>
+
+<script src="../static/signups/js/jquery.min.js"></script>
+<script src="../static/signups/js/main.js"></script>
+	
+
+
+</body>
 {% endblock %}
 
