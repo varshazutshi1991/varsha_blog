@@ -1,4 +1,5 @@
 
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,8 +10,9 @@
     <meta name="author" content="">
     <title>base</title>
     <!-- Bootstrap core CSS -->
-    <link href="../static/signups/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../static/signups/css/style.css" rel="stylesheet">
+    <link href="{% static 'signups/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'signups/css/style.css' %}" rel="stylesheet">
+   <!--  <link href="../static/signups/css/style.css" rel="stylesheet"> -->
 </head>
 <body>
   <div class="container">

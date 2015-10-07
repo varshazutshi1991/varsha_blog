@@ -1,0 +1,32 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>base</title>
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'signups/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'signups/css/style.css' %}" rel="stylesheet">
+   <!--  <link href="../static/signups/css/style.css" rel="stylesheet"> -->
+</head>
+<body>
+  <div class="container">
+      {% block content %} {% endblock %}
+      
+      
+      <footer>
+        <p></p>
+      </footer>
+  </div> <!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+   <script src="../static/signups/js/jquery.min.js"></script>
+<script src="../static/signups/js/main.js"></script>
+  </body>
+</html>

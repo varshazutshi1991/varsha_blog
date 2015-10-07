@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	
+	<div class="header-container">
+		<div class="row">
+			<div class="span9">
+				<div class="span4">
+					<h1 class="logo">THOUGHT</h1>
+				</div>
+				<div class="span5">
+					<div class="navbar">
+		 				 <div class="navbar-inner"><!-- style="margin-top: 30px;"> -->
+						    <a class="brand" href="/blog/">Blog</a>
+					 	    <ul class="nav">
+					 	      <li class="active"><a href="/blog/archives/">Archives</a></li>
+					 	      <li><a href="/blog/tag/{{tag}}">Tags</a></li>
+					 	      <li><a href="/blog/resume/">Resume</a></li>
+					 	      <li><a href="#">About me</a></li>
+					 	     </ul>
+	 	 				</div>
+	 				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="body-container">
+		{% for thought in thoughts %}
+		<div class="row">
+			<div class="span9">
+				<h3><a href="/blog/{{thought.id}}">{{thought.title}}</a></h3>
+				on {{thought.created}}
+			</div>
+		</div>
+		{% endfor %}
+		
+	</div>
+	
+
+{% endblock %}
+
