@@ -18,17 +18,26 @@ body {
   background-color: #fff;
   padding: 25px 50px;
   margin: 20px auto;
-  background-image: url("../images/wallpaper6.jpg");
+  /*background-image: url("../images/wallpaper3.jpg");*/
   background-size: 1060px;
   background-repeat: no-repeat;
 }
 
 .header-container{
   max-width:960px;
+  background-image: url("../images/wallpaper3.jpg");
 }
 .body-container{
   max-width:960px;
+  margin-bottom: 960px;
+  padding-top: 50px;
 }
+.title-header{
+  font-size: 36px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
 .resume-container{
   max-width: 700px;
 }
@@ -47,6 +56,13 @@ body {
   padding-top: 10px;
   width:960px;
 }
+
+.inner-container{
+  max-width: 960px;
+  margin-left: 400px;
+  margin-right: 200px;
+}
+
 article {
   padding: 20px 0;
 }
@@ -57,6 +73,9 @@ footer {
 ul {
   list-style: none;
   margin: 0px;
+  font-size: 16px;
+  font-style: italic;
+  color: #808080
 }
 .skills {
   border: 0;
@@ -64,7 +83,7 @@ ul {
 /* Links */
 a {
   color: #000000;
-  border-bottom: 1px solid #dddddd;
+ /* border-bottom: 1px solid #dddddd;*/
   -o-transition: color 0.5s ease-out, background 0.6s ease-in;
   -ms-transition: color 0.5s ease-out, background 0.6s ease-in;
   -moz-transition: color 0.5s ease-out, background 0.6s ease-in;
@@ -74,8 +93,8 @@ a {
   transition: color 0.5s ease-out, background 0.6s ease-in;
 }
 a:hover {
-  color: #333333;
-  background: #F9F9F9;
+  color: #005580;
+  /*background: #F9F9F9;*/
   text-decoration: none;
 }
 footer a {
